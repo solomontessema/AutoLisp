@@ -1,15 +1,3 @@
-;;Autolisp to insert GXT blocks known by the AUTOLISP and move them along the baseline
-;;offset the blocks to left or right.
-;;And edit the field-note station texts based on the insertion point, distance the block moved and its offset automatically
-;;copyright GXT TELECOMMINICATIONS 
-;;Solomon Tsegazeab Tessema
-;;September 2014
-;;Revised November 2014
-
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 
 (defun c:RB ( / ss ang ) (vl-load-com)
 
